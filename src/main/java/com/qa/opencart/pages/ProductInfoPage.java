@@ -62,6 +62,7 @@ public class ProductInfoPage {
 //		$2,000.00
 //		Ex Tax: $2,000.00
 		private void getProductPriceData() {
+			System.out.println("pricing list");//for git comments
 			List<WebElement> priceList = eleUtil.getElements(productPriceData);
 			String price = priceList.get(0).getText();
 			String exTaxPrice = priceList.get(1).getText().split(":")[1].trim();

@@ -29,6 +29,7 @@ public class RegistrationPage {
 	
 	private By logoutLink = By.linkText("Logout");
 	private By registerLink = By.linkText("Register");
+	private By navee = By.linkText("navee");//for git comments
 	
 	//2.Public Page Class Constructor
 	public RegistrationPage(WebDriver driver) {
